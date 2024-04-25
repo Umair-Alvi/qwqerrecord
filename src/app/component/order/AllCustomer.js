@@ -53,27 +53,27 @@ const AllCustomer = ({tdata}) => {
 
                         {
                             tdata.map((item, index) => (
-                                <tr key={index}>
-                                    <td className="align-top text-center  text-black text-[14px]">{item.id}</td>
-                                    <td className="align-top text-center  text-black text-[14px]">{item.city}</td>
-                                    <td className="align-top text-center  text-black text-[14px]">{item.status}</td>
-                                    <td className="align-top text-center  text-black text-[14px]">{item.creatdate}</td>
-                                    <td className="align-top text-center  text-black text-[14px]">0{item.PickupDate}</td>
-                                    <td className="align-top ">
+                                <tr key={index} >
+                                    <td className="align-top text-center p-2  text-black text-[14px]">{item.id}</td>
+                                    <td className="align-top text-center p-2 text-black text-[14px]">{item.city}</td>
+                                    <td className="align-top text-center p-2 text-black text-[14px]">{item.status}</td>
+                                    <td className="align-top text-center p-2 text-black text-[14px]">{item.creatdate}</td>
+                                    <td className="align-top text-center p-2 text-black text-[14px]">0{item.PickupDate}</td>
+                                    <td className="align-top p-2">
                                       <span className=" text-black text-[14px]">{item.cname}</span> <br />
                                       <span className="text-[12px]">{item.cphone}</span>
                                     </td>
-                                    <td className="align-top">
+                                    <td className="align-top p-2">
                                       <span className=" text-black text-[14px]">{item.sname}</span> <br />
                                       <span className="text-[12px]">{item.saddress}</span>
                                     </td>
-                                    <td className="align-top">
+                                    <td className="align-top p-2">
                                       <span className=" text-black text-[14px]">{item.cname}</span><br />
                                       <span className="text-[12px]">{item.caddress}</span>
                                     </td>
-                                    <td className="align-top text-black text-[14px]">{item.PCA}</td>
-                                    <td className="align-top text-black text-[14px]">{item.driver}</td>
-                                    <td className="align-top text-black text-[14px] flex justify-evenly">
+                                    <td className="align-top p-2 text-black text-[14px]">{item.PCA}</td>
+                                    <td className="align-top p-2 text-black text-[14px]">{item.driver}</td>
+                                    <td className="align-top p-2 text-black text-[14px] flex justify-evenly">
                                    <Link href="#">
                                    <RiFileEditLine size={"20"}/>
                                    </Link>

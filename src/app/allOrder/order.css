@@ -18,7 +18,7 @@
     height: 2px;
     background: white;
     top: 40px;
-    /* right: 10px; */
+    left: 20px;
 }
 .vertical-line{
     height: 32px;
@@ -106,7 +106,7 @@
 .customer-table{
     color: #9FA2B4;
 }
-.customer-table thead{
+.customer-table thead ,tr{
   border-bottom: 2px solid #DFE0EB;
 
 }
