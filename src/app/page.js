@@ -4,6 +4,9 @@ import Link from "next/link";
 export default function Home() {
   return (
       <>
+      <h1 className="text-3xl">
+        click me 
+      </h1>
         <Link href="./allOrder">
         ALL Record
         </Link>
