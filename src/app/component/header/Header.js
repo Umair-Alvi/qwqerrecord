@@ -113,14 +113,14 @@ const Header = () => {
                 <div style={{fontSize:"12px" ,width:"100px"}}>Jones Ferdinand</div>
                 <div className="text-right " style={{color:"rgba(223, 224, 235, 60%)", fontSize:"11px"}}>Super Admin</div>
                 </div>
-                <div >
+                
             <Image
                 src="/photo.png"
-                width={31.12}
-                height={31.12}
+                width={38.12}
+                height={38.12}
                 className="rounded-full"
               />
-            </div>
+            
               
             </div>
 
