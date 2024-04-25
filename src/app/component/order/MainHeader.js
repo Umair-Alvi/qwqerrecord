@@ -8,7 +8,7 @@ const MainHeader = () => {
     const [isactive,setisactive]=useState("active")
   return (
     <>
-        <div className="main-header w-[1440] lg:w-[1166] h-[263.5px] bg-[#00411B]">
+        <div className="main-header xl:w-[1440] lg:w-[1166] h-[263.5px] bg-[#00411B]">
        <Header />
 
         <div className="nav-2nd p-4 flex ">

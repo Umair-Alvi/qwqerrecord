@@ -8,7 +8,7 @@ const Header = () => {
     return (
       <>
       
-         <div className="main-nav flex ">
+         <div className="main-nav flex xl:w-[1440] lg: w-[1166] ">
           <div className="left-nav flex">
             
             <Image
