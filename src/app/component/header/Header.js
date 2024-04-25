@@ -95,7 +95,7 @@ const Header = () => {
               </div>
           </div>
           </div>
-         <div className="right-nav pl-48  flex items-center">
+         <div className="right-nav pl-[150px]  flex items-center">
             <div >
             <Image
                 src="/bell.png"
