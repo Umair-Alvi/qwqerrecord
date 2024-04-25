@@ -1,0 +1,115 @@
+.main-header{
+    
+}
+.main-nav{
+    /* width: 1440px; */
+    padding: 30px 40px 20px 40px;
+    outline: 1px solid ;
+    outline-color: rgba(255, 255, 255, 0.3);
+}
+
+.nav-menu{
+    padding: 10px 10px;
+    color:rgba(223, 224, 235, 60%); 
+}
+.active{
+    position: relative;
+    width: 100%;
+    height: 2px;
+    background: white;
+    top: 40px;
+    /* right: 10px; */
+}
+.vertical-line{
+    height: 32px;
+    background-color: white;
+    width: 1px;
+    margin: 0 18px;
+    
+}
+.right-nav{
+    width: 1360px;
+}
+
+.search-filter{
+    margin: 28px;
+    border: 1px solid #DFE0EB;
+   
+}
+.search input{
+    padding-left: 30px;
+    width: 179px;
+    height: 40px;
+    color: rgba(131, 163, 144,100%);
+    background: rgba(255, 255, 255,0.2);
+
+  
+}
+.select select{
+    margin-left: 10px;
+    padding-left: 10px;
+    width: 179px;
+    height: 40px;
+    color: rgba(131, 163, 144,100%);
+    background: rgba(255, 255, 255,0.2);
+    
+}
+.select2 select{
+    margin-left: 10px;
+    padding-left: 10px;
+    width: 198.85px;
+    height: 43px;
+    color: rgba(131, 163, 144,100%);
+    background: rgba(255, 255, 255,0.2);
+    
+}
+.btn{
+    width: 134px;
+    height: 43px;
+    margin-left: 10px;
+}
+.btn-cvs{
+    color: white;
+    background: #191919;
+}
+
+.btn-clear{
+    color: green;
+    border :1px solid green
+}
+.btn-search{
+    background-image: linear-gradient(to bottom, #108C1C, #00411B);
+    color: white;
+}
+.search-filter select{
+    background-color: #F2F4F1;
+    color: #A8A8A8;
+    margin-left:5px ;
+    width: 136px;
+    height: 32px;
+    border-radius: 5px;
+}
+.search-filter input, .customer select {
+    background-color: #F2F4F1;
+    color: #A8A8A8;
+    margin-left:5px ;
+    width: 156px;
+    height: 32px;
+    border-radius: 5px;
+
+}
+.customer{
+    
+    border: 1px solid #DFE0EB;
+    margin: 25px;
+}
+.customer-table{
+    color: #9FA2B4;
+}
+.customer-table thead{
+  border-bottom: 2px solid #DFE0EB;
+
+}
+.customer-table th{
+    /* width: 200px; */
+}
