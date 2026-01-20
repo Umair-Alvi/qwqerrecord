@@ -1,36 +1,27 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+Project Overview
 
-## Getting Started
+This is a single-page dashboard project built during my early learning days.
 
-First, run the development server:
+The purpose of this project was to practice:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Admin panel layout
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Page navigation
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+Order listing flow
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+The Home Page provides a simple entry point, and on click, it navigates to the All Orders page.
 
-## Learn More
+🚀 Why This Project Matters
 
-To learn more about Next.js, take a look at the following resources:
+Built during my beginner phase
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Focused on real-world dashboard structure
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+Helped me understand basic navigation and UI flow
 
-## Deploy on Vercel
+This project reflects my starting point as a developer and my growth towards more structured applications.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+🧑‍💻 Author
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Muhammad Umair Akram Awan
